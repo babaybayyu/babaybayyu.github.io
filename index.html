@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio Muhamad Bayu Pratama</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <button type="button" aria-label="toggle theme" class="btn btn--icon">
+        <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+      </button>
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="index.html">Tentang Saya</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#pendidikan">Pendidikan</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#pengalamankerja">Pengalaman Kerja</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#keahlian">Keahlian</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#pelatihan&seminar">Pelatihan & Seminar</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#kontak">Kontak</a>
+          </li>
+        </ul>
+        <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <!--Tentang Saya-->
+      <div class="about center" id="tentang-saya">
+        <img src="foto.png">
+        <h1><span class="about__name">Muhamad Bayu Pratama</span></h1>
+        <h2 class="about__role">Tentang Saya</h2>
+        <p class="about__desc">
+          Memiliki bekal pendidikan di SMK Bhakti Insani, jurusan Rekayasa Perangkat Lunak membuat saya ingin terus mendalami dunia IT. Hingga saya
+          memiliki beberapa pengalaman dalam analisi dan perancangan website dan aplikasi berbasis Vb.NET, Serta memiliki pengalaman magang di salah satu instansi pemerintahan.
+        </p>
+      </div>
+      <!--Pendidikan-->
+      <div class="about left" id="pendidikan">
+        <h2 class="about__role">Pendidikan</h2>
+          <ul class="about__desc">
+            <li><h4>SMK Bhakti Insani</h4></li>
+            <p>Jurusan Rekayasa Perangkat Lunak<br>2021-2014</p>
+            <li><h4>MTs Darussalam</h4></li>
+            <i>2018-2021</i>
+            <li><h4>SDN Pamoyaman 3</h4></li>
+            <i>2012-2018</i>
+          </ul>
+      </div>
+      <!--Pengalaman Kerja-->
+      <div class="about right " id="pengalamankerja">
+        <h2 class="about__role">Pengalaman Kerja</h2>
+        <ul class="about__desc">
+          <li><h4>PKL | Satpol PP Kota Bogor</h4></li>
+          <i>Agustus-November 2022</i>
+            <p>Merekap barang masuk dan keluar<br>Mengikuti kegiatan tim tangkas<br>Mendata aktivitas  simpeg e-kinerja pegawai satpol pp<br>Mendata jabatan fungsional 2022</p>
+        </ul>
+      </div>
+      <!--Keahlian-->
+      <div class="about center" id="keahlian">
+        <h2 class="about__role">Keahlian</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Vb.NET</li>
+          <li class="skills__list-item btn btn--plain">HTML</li>
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Bootstrap</li>
+          <li class="skills__list-item btn btn--plain">SQL</li>
+          <li class="skills__list-item btn btn--plain">PHP</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">Ms Office</li>
+          <li class="skills__list-item btn btn--plain">GIMP</li>
+        </ul>
+      </div>
+      <!--Pelatihan & Seminar-->
+      <div class="about center" id="pelatihan&seminar">
+        <h2 class="about__role">Pelatihan & Seminar</h2>
+          <p class="about__desc">
+            Forum komunikasi penetapan tenaga kerja dalam negeri, Dinas tenaga kerja Kota Bogor, <i>2023</i></p>
+      </div>
+      <!--Kontak-->
+      <div class="about center" id="kontak">
+        <h2 class="about__role">Kontak Saya</h2>
+            <ul class="about__desc skills__list">
+              <a href="mailto:pbayu4223@gmail.com"><li class="skills__list-item btn btn--outline">pbayu4223@gmail.com</li></a>
+            </ul>
+      </div>
+      <!--Footer-->
+    <footer class="footer">
+      <i>created with love by</i>
+      <a href="index.html"class="link footer__link">Muhamad Bayu Pratama</a>
+    </footer>
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
